@@ -1,0 +1,34 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./fonts/stylesheet.css";
+
+@import url("https://fonts.googleapis.com/css2?family=DM%2BSans:wght@300;400;500;600&display=swap");
+body {
+  font-family: "Proxima Nova";
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
